@@ -52,6 +52,10 @@
     "rimraf": "^6.0.1",
     "standard-version": "^9.5.0"
   },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
   "scripts": {
     "release": "standard-version",
     "coverage:html": "nyc report --reporter=html",
